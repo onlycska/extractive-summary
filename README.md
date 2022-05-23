@@ -1,12 +1,12 @@
 # Extractive summarization
 
 ## Dataset description
-Dataset for extractive summarization is gazeta from arXiv:2006.11063 [cs.CL]. It contains news articles and their summary.
+Dataset for extractive summarization is gazeta (v1) from arXiv:2006.11063 [cs.CL]. It contains news articles and their summary.
 Original dataset is jsonl file. Every article is json. Every article has 5 keys. Two of them is important for my preparings – ‘summary’ (with summary for news written by human) and ‘text’ (news written by human).
-Dataset Split	Number of Instances in Split
-Train	52,400
-Validation	5,265
-Test	5,770
+Dataset Splitted by its author:
+- Train	52,400
+- Validation	5,265
+- Test	5,770
 
 ## Dataset preparing
 For two different tasks solving I used two types of datasets preparing:
