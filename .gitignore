@@ -1,2 +1,4 @@
-./data/*
-./models/*
+models
+data
+.idea
+__pycache__
